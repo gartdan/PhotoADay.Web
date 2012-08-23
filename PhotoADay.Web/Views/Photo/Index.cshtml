@@ -1,0 +1,14 @@
+﻿@model IEnumerable<PhotoADay.Data.Photo>
+@{
+    ViewBag.Title = User.Identity.Name + "'s Photos";
+}
+
+<h2>@User.Identity.Name's Photos</h2>
+
+<p>
+    @Html.ActionLink("New Photo", "Add")
+</p>
+
+@Html.Partial("TagsList", Model)
+@Html.Partial("PhotoList", Model)
+

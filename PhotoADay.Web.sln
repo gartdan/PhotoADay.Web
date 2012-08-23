@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoADay.Web", "PhotoADay.Web\PhotoADay.Web.csproj", "{6D770DD4-7D59-4588-ABCD-CF0667007D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoADay.Web.Tests", "PhotoADay.Web.Tests\PhotoADay.Web.Tests.csproj", "{6337BCE9-EA80-4408-8933-36A7A7DAC99F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoADay.Data", "PhotoADay.Data\PhotoADay.Data.csproj", "{8D1F853D-68C9-485F-9CB9-0DD6C3F80C0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D770DD4-7D59-4588-ABCD-CF0667007D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D770DD4-7D59-4588-ABCD-CF0667007D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D770DD4-7D59-4588-ABCD-CF0667007D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D770DD4-7D59-4588-ABCD-CF0667007D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6337BCE9-EA80-4408-8933-36A7A7DAC99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6337BCE9-EA80-4408-8933-36A7A7DAC99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6337BCE9-EA80-4408-8933-36A7A7DAC99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6337BCE9-EA80-4408-8933-36A7A7DAC99F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1F853D-68C9-485F-9CB9-0DD6C3F80C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1F853D-68C9-485F-9CB9-0DD6C3F80C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1F853D-68C9-485F-9CB9-0DD6C3F80C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1F853D-68C9-485F-9CB9-0DD6C3F80C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

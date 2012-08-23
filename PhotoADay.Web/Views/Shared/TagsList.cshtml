@@ -1,0 +1,15 @@
+﻿@model IEnumerable<PhotoADay.Data.Photo>
+
+<div id="tagdiv">
+    @{
+        var delimiters = new char[] { ',', ';', '|' };
+        var tags = Model.SelectMany(x => x.Tags.Split(delimiters)).Distinct();       
+    }
+    @tags.Count() total tags.
+    <ul>
+    @foreach (var tag in tags) {
+      <li>@tag</li>
+    }
+    </ul>
+
+</div>
